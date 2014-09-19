@@ -14,10 +14,6 @@ echo "set-option -g mouse-select-pane on" > ~/.tmux.conf
 echo "set-window-option -g mode-mouse on" >> ~/.tmux.conf
 echo "bind D source-file ~/.tmux.mylayout" >> ~/.tmux.conf
 
-#if [! -d "~/.tmux/"];then
-#    mkdir -p ~/.tmux
-#fi
-
 echo "selectp -t 0    " > ~/.tmux.mylayout
 echo "splitw -h -p 50 " >> ~/.tmux.mylayout
 echo "selectp -t 1   " >>~/.tmux.mylayout
